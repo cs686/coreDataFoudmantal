@@ -14,6 +14,9 @@
 		A67615FA1C6215080052F4A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67615F91C6215080052F4A0 /* Assets.xcassets */; };
 		A67615FD1C6215080052F4A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67615FB1C6215080052F4A0 /* LaunchScreen.storyboard */; };
 		A67616081C6215080052F4A0 /* CoreData_001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A67616071C6215080052F4A0 /* CoreData_001Tests.m */; };
+		A67616141C6215290052F4A0 /* Company.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A67616121C6215290052F4A0 /* Company.xcdatamodeld */; };
+		A67616191C62174A0052F4A0 /* Employee+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A67616161C62174A0052F4A0 /* Employee+CoreDataProperties.m */; };
+		A676161A1C62174A0052F4A0 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = A67616181C62174A0052F4A0 /* Employee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		A67616031C6215080052F4A0 /* CoreData_001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreData_001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67616071C6215080052F4A0 /* CoreData_001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreData_001Tests.m; sourceTree = "<group>"; };
 		A67616091C6215080052F4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67616131C6215290052F4A0 /* Company.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Company.xcdatamodel; sourceTree = "<group>"; };
+		A67616151C62174A0052F4A0 /* Employee+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Employee+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A67616161C62174A0052F4A0 /* Employee+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Employee+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A67616171C62174A0052F4A0 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		A67616181C62174A0052F4A0 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,11 @@
 				A67615FB1C6215080052F4A0 /* LaunchScreen.storyboard */,
 				A67615FE1C6215080052F4A0 /* Info.plist */,
 				A67615ED1C6215080052F4A0 /* Supporting Files */,
+				A67616121C6215290052F4A0 /* Company.xcdatamodeld */,
+				A67616151C62174A0052F4A0 /* Employee+CoreDataProperties.h */,
+				A67616161C62174A0052F4A0 /* Employee+CoreDataProperties.m */,
+				A67616171C62174A0052F4A0 /* Employee.h */,
+				A67616181C62174A0052F4A0 /* Employee.m */,
 			);
 			path = CoreData_001;
 			sourceTree = "<group>";
@@ -216,6 +229,9 @@
 				A67615F51C6215080052F4A0 /* ViewController.m in Sources */,
 				A67615F21C6215080052F4A0 /* AppDelegate.m in Sources */,
 				A67615EF1C6215080052F4A0 /* main.m in Sources */,
+				A676161A1C62174A0052F4A0 /* Employee.m in Sources */,
+				A67616141C6215290052F4A0 /* Company.xcdatamodeld in Sources */,
+				A67616191C62174A0052F4A0 /* Employee+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +428,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A67616121C6215290052F4A0 /* Company.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A67616131C6215290052F4A0 /* Company.xcdatamodel */,
+			);
+			currentVersion = A67616131C6215290052F4A0 /* Company.xcdatamodel */;
+			path = Company.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A67615E21C6215080052F4A0 /* Project object */;
 }
